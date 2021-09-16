@@ -12,7 +12,7 @@ public class Board {
 	private String contents;
 	
 	private HttpServletRequest request;
-	/* private BoardService boardService = new BoardService(); */
+	private BoardService boardService = new BoardService();
 	
 	private Map<String, String> failedAttribute = new HashMap<String, String>();
 	

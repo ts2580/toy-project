@@ -11,7 +11,7 @@ public class Review {
 	private String reviewContents;
 	
 	private HttpServletRequest request;
-	/* private ReviewService reviewService = new ReviewService(); */
+	private ReviewService reviewService = new ReviewService();
 	private Map<String, String> failedAttribute = new HashMap<String, String>();
 	
 	public Review(HttpServletRequest request) {
