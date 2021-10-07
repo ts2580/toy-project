@@ -40,23 +40,23 @@
 			/*	if(confirmId != userId.value){
 				e.preventDefault();
 				document.querySelector("#idCheck").innerHTML='아이디 중복검사를 통과하지 못했음';
-			}*/
+			};
 			
-			/*
+			
 			if(!pwReg.test(password.value)){
 				e.preventDefault();
 				document.querySelector("#pwCheck").innerHTML='비번은 숫자, 영자, 특문 조합의 8자리 이상';
-			}
+			};
 			
 			if(!tellReg.test(tell.value)){
 				e.preventDefault();
 				document.querySelector("#tellCheck").innerHTML='폰 번호 양식이 맞지 않음';
-			}
+			};
 			
 			필터 걸어서 서버단에서 걸렀음. 클라이언트 단에 남긴건 아이디 중복검사.
 			아이디 중복검사는 체크버튼땜에 살려둔다.
 			
-			*/
+			
 			
 			
 		})

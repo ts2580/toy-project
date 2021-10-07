@@ -71,8 +71,6 @@ public class MemberDao {
 		PreparedStatement pstm = null;
 		int res = 0;
 		
-
-		
 		String query = "insert into member(user_id, password, email, tell) values(?,?,?,?) ";
 		
 		try {
@@ -102,8 +100,6 @@ public class MemberDao {
 		
 		PreparedStatement pstmt = null;
 		int res = 0;
-		
-		
 		String query =  "update member set password =? where user_id = ?";
 		
 		
