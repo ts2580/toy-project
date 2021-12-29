@@ -37,13 +37,13 @@
 			let pwReg = /(?=.*[a-zA-Z])(?=.*[0-9])(?=.*[^a-zA-Zㄱ-힣0-9])(?=.{8,})/;
 			let tellReg= /^\d{9,11}$/;
 			
-			/*	if(confirmId != userId.value){
+			if(confirmId != userId.value){
 				e.preventDefault();
 				document.querySelector("#idCheck").innerHTML='아이디 중복검사를 통과하지 못했음';
 			};
 			
 			
-			if(!pwReg.test(password.value)){
+			/*if(!pwReg.test(password.value)){
 				e.preventDefault();
 				document.querySelector("#pwCheck").innerHTML='비번은 숫자, 영자, 특문 조합의 8자리 이상';
 			};
@@ -54,7 +54,7 @@
 			};
 			
 			필터 걸어서 서버단에서 걸렀음. 클라이언트 단에 남긴건 아이디 중복검사.
-			아이디 중복검사는 체크버튼땜에 살려둔다.
+			아이디 중복검사는 체크버튼땜에 살려둔다.*/
 			
 			
 			
